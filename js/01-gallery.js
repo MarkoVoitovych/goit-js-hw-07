@@ -21,7 +21,7 @@ function makeGalleryMarkup(gallery, parent) {
     />
   </a></div>`;
     })
-    .join();
+    .join('');
 
   parent.innerHTML = galleryMarkup;
 }

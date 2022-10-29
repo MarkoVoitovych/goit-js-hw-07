@@ -13,7 +13,7 @@ function makeGalleryMarkup(gallery, parent) {
                 <img class="gallery__image" src='${img.preview}' alt='${img.description}' />
             </a>`;
         })
-        .join();
+        .join('');
 }
 
 const lightbox = new SimpleLightbox('.gallery a', { captionType: "alt", captionsData: 'alt', captionDelay: 250 });
